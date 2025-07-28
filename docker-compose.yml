@@ -5,7 +5,7 @@ services:
       context: .
       dockerfile: ./Dockerfile.next
     platform: linux/amd64
-    image: ofeeney16/kea-kg:2.5.14
+    image: ofeeney16/kea-kg:2.5.15
     x-kubernetes:
       strategy:
         type: Recreate
